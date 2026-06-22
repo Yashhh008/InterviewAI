@@ -1,0 +1,43 @@
+{
+  "name": "interviewai-backend",
+  "version": "1.0.0",
+  "description": "InterviewAI Backend API - AI-Powered Interview Preparation Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed/seedData.js"
+  },
+  "keywords": [
+    "interview",
+    "ai",
+    "gemini",
+    "mern"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.5.2",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.1",
+    "multer": "^2.2.0",
+    "nodemailer": "^9.0.1",
+    "pdf-parse": "^2.4.5",
+    "uuid": "^14.0.0",
+    "xss-clean": "^0.1.4"
+  }
+}
